@@ -1,3 +1,15 @@
 body {
-    background-color: lightblue;
+    background-color: #7ebc89;
+}
+
+nav {
+    display: block;
+    background-color: #fe5d26;
+}
+
+.name {
+    text-align: center;
+    font-family: "Lucida Console", monospace;
+    font-weight: bold;
+    color: #c1dbb3;
 }
