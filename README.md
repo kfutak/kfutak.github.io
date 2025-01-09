@@ -1,2 +1,2 @@
-# kfutakami.github.io
+# kfutak.github.io
 My personal website
