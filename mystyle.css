@@ -42,14 +42,13 @@ img {
     margin-right: auto;
     border-radius: 25px;
     background-color: #C1DBB3;
-    margin-bottom: 0px;
   }
 
   .main-text {
     width: 700px; 
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 25px;
   }
 
   .bottom {
@@ -57,14 +56,13 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
-    background-color: forestgreen;
-    margin-top: 0px;  
+    background-color: forestgreen; 
   }
 
   .bottom-text {
     width: 700px; 
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 25px;
   }
   
