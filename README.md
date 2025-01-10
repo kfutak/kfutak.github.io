@@ -8,4 +8,5 @@ Below are some colors I plan to use on my website (courtesy of coolors.co):
 - Giants orange: fe5d26
 - Tea green: c1dbb3
 - Emerald: 7ebc89
+
 The koi image is from [Unsplash](https://unsplash.com/photos/a-group-of-koi-fish-swimming-in-a-pond-A9oltO66FY8).
