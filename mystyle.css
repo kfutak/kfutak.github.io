@@ -2,13 +2,18 @@ body {
     background-color: #7ebc89;
 }
 
-nav {
+.top {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding:  10px;
     display: block;
     background-color: #fe5d26;
+    width: 800px;
+    height: 100px;
 }
 
 .name {
-    text-align: center;
     font-family: "Lucida Console", monospace;
     font-weight: bold;
     color: #c1dbb3;
