@@ -10,3 +10,5 @@ Below are some colors I might use on my website (courtesy of [coolors.co](https:
 - Emerald: 7ebc89
 
 The koi image is from [Unsplash](https://unsplash.com/photos/a-group-of-koi-fish-swimming-in-a-pond-A9oltO66FY8).
+
+**01/10/2025** I did not do very much work today. I mainly added basic information to my About Me. Tomorrow I plan to add sections about my interests and adjust the links in the footer to be attached to logos.
