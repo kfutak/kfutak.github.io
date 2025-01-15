@@ -17,3 +17,4 @@ The koi image is from [Unsplash](https://unsplash.com/photos/a-group-of-koi-fish
 - [Track picture](https://unsplash.com/photos/low-angle-photography-of-track-field-TEYrLTKKMSg)
 - [Books picture](https://unsplash.com/photos/assorted-title-of-books-piled-in-the-shelves-NIJuEQw0RKg)
 - [Math picture](https://unsplash.com/photos/a-close-up-of-a-piece-of-paper-with-writing-on-it-dvMJR9-Drbs)
+I also added icons for the footer links. The icons are from a [fontawesome.com](https://fontawesome.com/) kit.
