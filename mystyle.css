@@ -107,5 +107,13 @@ nav {
   width: 900px;
 }
 
+a:link, a:visited, a:active {
+  color: darkgreen;
+}
+
+a:hover {
+  color: #fe5d26;
+}
+
 
   
