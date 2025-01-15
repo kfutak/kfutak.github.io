@@ -89,7 +89,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
-    background-color: forestgreen; 
+    background-color: #7ebc89; 
 }
 
 .bottom-text {
@@ -97,6 +97,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
+    text-align: center;
 }
 
 .middle {
