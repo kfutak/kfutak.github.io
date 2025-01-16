@@ -19,3 +19,5 @@ The koi image is from [Unsplash](https://unsplash.com/photos/a-group-of-koi-fish
 - [Math picture](https://unsplash.com/photos/a-close-up-of-a-piece-of-paper-with-writing-on-it-dvMJR9-Drbs)
 
 I also added icons for the footer links. The icons are from a [fontawesome.com](https://fontawesome.com/) kit.
+
+**01/15/2025** I completed the resume page. In the future I plan to use vue.js and add more comments to my code. After I complete a CSS/HTML course, I plan to review the code in my project to try to improve it.
