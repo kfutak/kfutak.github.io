@@ -21,3 +21,45 @@ The koi image is from [Unsplash](https://unsplash.com/photos/a-group-of-koi-fish
 I also added icons for the footer links. The icons are from a [fontawesome.com](https://fontawesome.com/) kit.
 
 **01/15/2025** I completed the resume page. In the future I plan to use Vue.js and add more comments to my code. After I complete a CSS/HTML course, I plan to review the code in my project to try to improve it.
+
+**01/16/2025** Today I installed **[Chocolatey](https://chocolatey.org/)** to facilitate installations. Steps:
+
+Open the Windows PowerShell in admin mode.
+
+Check the session execution policy: Get-ExecutionPolicy.
+
+Change the session execution from Restricted: Set-ExecutionPolicy Bypass -Scope Process -Force
+
+Install Chocolatey:
+- Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+Verify installation: choco --version
+
+Next I used Chocolatey to install **Node.js**. Steps:
+
+Install Node.js: choco install nodejs
+
+Add Node.js to the PATH Environment Variable: 
+- Search for edit the system variables
+- Click environment variables 
+- Under System variables, find Path and click Edit
+- Click New and add the path to nod.exe: C:\ProgramData\chocolatey\bin 
+- Click OK to save/close all windows
+
+Restart the PowerShell in admin mode.
+
+Check the session execution policy: Get-ExecutionPolicy.
+
+Change the session execution from Restricted: Set-ExecutionPolicy Bypass -Scope Process -Force
+
+Verify Node.js installation: node -v
+Verify npm (Node Package Manager) installation: npm -v
+
+Finally, I followed this (tutorial)[https://vuejs.org/guide/quick-start.html] to install **Vue.js**.
+
+Tomorrow I plan to integrate my old files into the Vue project.
+
+## What I Used to Make the Project
+- GitHub, Visual Studio Code
+- Chocolatey, Node.js (+npm), Vue.js
+- HTML, CSS
