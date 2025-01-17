@@ -26,7 +26,7 @@ I also added icons for the footer links. The icons are from a [fontawesome.com](
 
 Open the Windows PowerShell in admin mode.
 
-Check the session execution policy: Get-ExecutionPolicy.
+Check the session execution policy: Get-ExecutionPolicy
 
 Change the session execution from Restricted: Set-ExecutionPolicy Bypass -Scope Process -Force
 
@@ -40,22 +40,22 @@ Next I used Chocolatey to install **Node.js**. Steps:
 Install Node.js: choco install nodejs
 
 Add Node.js to the PATH Environment Variable: 
-- Search for edit the system variables
-- Click environment variables 
-- Under System variables, find Path and click Edit
-- Click New and add the path to nod.exe: C:\ProgramData\chocolatey\bin 
-- Click OK to save/close all windows
+- Search for edit the system variables.
+- Click environment variables.
+- Under System variables, find Path and click Edit.
+- Click New and add the path to node.exe: C:\ProgramData\chocolatey\bin 
+- Click OK to save/close all windows.
 
 Restart the PowerShell in admin mode.
 
-Check the session execution policy: Get-ExecutionPolicy.
+Check the session execution policy: Get-ExecutionPolicy
 
 Change the session execution from Restricted: Set-ExecutionPolicy Bypass -Scope Process -Force
 
 Verify Node.js installation: node -v
 Verify npm (Node Package Manager) installation: npm -v
 
-Finally, I followed this (tutorial)[https://vuejs.org/guide/quick-start.html] to install **Vue.js**.
+Finally, I followed this [tutorial](https://vuejs.org/guide/quick-start.html) to install **Vue.js**.
 
 Tomorrow I plan to integrate my old files into the Vue project.
 
