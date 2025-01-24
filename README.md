@@ -74,8 +74,9 @@ Tomorrow I plan to integrate my old files into the Vue project.
 - Goals page
 - Projects page (requires adding old projects to GitHub)
 - Blog page
-- Photo gallery page (add more pictures, make more interactive, improve implementation)
+- Photo gallery page (add more pictures, make more interactive, improve implementation, tags)
 - Use a CDN (?)
+- Goodreads, RunKeeper, Duolingo, last.fm, et cetera widgets
 - And more...
 
 
