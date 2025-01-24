@@ -72,7 +72,6 @@ nav {
     width: 700px; 
     margin-left: auto;
     margin-right: auto;
-    padding-top: 0px;
     padding-bottom: 25px;
     font-family: "Georgia", serif;
 }
@@ -81,7 +80,6 @@ nav {
     width: 700px; 
     margin-left: auto;
     margin-right: auto;
-    padding-top: 0px;
     font-family: "Georgia", serif;
     font-weight: bold;
 }
@@ -90,7 +88,6 @@ nav {
   width: 700px; 
   margin-left: auto;
   margin-right: auto;
-  padding-top: 0px;
   padding-bottom: 25px;
   font-family: "Georgia", serif;
   text-align: center;
@@ -100,6 +97,8 @@ nav {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border-radius: 25px;
     background-color: #7ebc89; 
 }
@@ -110,13 +109,6 @@ nav {
     margin-right: auto;
     padding: 25px;
     text-align: center;
-}
-
-.middle {
-  background-color: #7ebc89;
-  margin-left: auto;
-  margin-right: auto;
-  width: 900px;
 }
 
 a:link, a:visited, a:active {

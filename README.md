@@ -82,3 +82,4 @@ Tomorrow I plan to integrate my old files into the Vue project.
 
 ## Bugs
 - The margins/padding on the gallery page
+- Fix paragraphs (make make-text a div class?)
