@@ -70,8 +70,13 @@ Tomorrow I plan to integrate my old files into the Vue project.
 - Integrate existing code with Vue.js
 - Add more comments
 - CSS/HTML course --> review all code (i.e., make links relative with ./, use more specific tags such as main, et cetera)
+- Fix bugs
 - Goals page
 - Projects page (requires adding old projects to GitHub)
 - Blog page
 - Photo gallery page (add more pictures, make more interactive, improve implementation)
 - And more...
+
+
+## Bugs
+- The margins/padding on the gallery page
