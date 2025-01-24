@@ -147,3 +147,26 @@ a:link, a:visited, a:active {
   height: auto;
 }
 
+.gallery-bottom {
+  display: inline-block;
+  border: 2.5px solid #7ebc89;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 200px;
+}
+
+.gallery-bottom .description {
+  padding: 10px;
+  text-align: center;
+  font-family: "Georgia", serif;
+}
+
+.gallery-bottom:hover {
+  border: 2.5px solid darkgreen;
+}
+
+.gallery-bottom img {
+  width: 100%;
+  height: auto;
+}
+
