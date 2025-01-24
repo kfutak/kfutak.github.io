@@ -75,6 +75,7 @@ Tomorrow I plan to integrate my old files into the Vue project.
 - Projects page (requires adding old projects to GitHub)
 - Blog page
 - Photo gallery page (add more pictures, make more interactive, improve implementation)
+- Use a CDN (?)
 - And more...
 
 
