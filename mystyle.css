@@ -28,7 +28,7 @@ nav {
     padding: 20px;
     border-radius: 10px;
     background-color: #fe5d26;
-    width: 300px;
+    width: 350px;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
@@ -94,7 +94,6 @@ nav {
   padding-bottom: 25px;
   font-family: "Georgia", serif;
   text-align: center;
-
 }
 
 .bottom {
@@ -124,5 +123,27 @@ a:link, a:visited, a:active {
   color: darkgreen;
 }
 
+.gallery {
+  display: inline-block;
+  border: 1px solid hsl(0, 0%, 60%);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 25px;
+  width: 200px;
+}
 
-  
+.gallery .description {
+  padding: 10px;
+  text-align: center;
+  font-family: "Georgia", serif;
+}
+
+.gallery:hover {
+  border: 1px solid hsl(0, 0%, 20%);
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
