@@ -125,7 +125,7 @@ a:link, a:visited, a:active {
 
 .gallery {
   display: inline-block;
-  border: 1px solid hsl(0, 0%, 60%);
+  border: 2.5px solid #7ebc89;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 25px;
@@ -139,7 +139,7 @@ a:link, a:visited, a:active {
 }
 
 .gallery:hover {
-  border: 1px solid hsl(0, 0%, 20%);
+  border: 2.5px solid darkgreen;
 }
 
 .gallery img {
