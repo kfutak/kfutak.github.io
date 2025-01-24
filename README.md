@@ -59,7 +59,19 @@ Finally, I followed this [tutorial](https://vuejs.org/guide/quick-start.html) to
 
 Tomorrow I plan to integrate my old files into the Vue project.
 
+**01/23/2025** Today I worked on the gallery page, which is based on this [tutorial](https://www.youtube.com/watch?v=uu0lOX6Ot3s&ab_channel=BroCode). I also created a to-do list (see below). 
+
 ## What I Used to Make the Project
 - GitHub, Visual Studio Code
 - Chocolatey, Node.js (+npm), Vue.js
-- HTML, CSS
+- HTML, CSS, JavaScript
+
+## To-do List
+- Integrate existing code with Vue.js
+- Add more comments
+- CSS/HTML course --> review all code (i.e., make links relative with ./, use more specific tags such as main, et cetera)
+- Goals page
+- Projects page (requires adding old projects to GitHub)
+- Blog page
+- Photo gallery page (add more pictures, make more interactive, improve implementation)
+- And more...
