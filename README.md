@@ -61,6 +61,8 @@ Tomorrow I plan to integrate my old files into the Vue project.
 
 **01/23/2025** Today I worked on the gallery page, which is based on this [tutorial](https://www.youtube.com/watch?v=uu0lOX6Ot3s&ab_channel=BroCode). I also created a to-do list (see below). 
 
+**01/24/2025** Today I mainly worked on fixing up index.html and my stylesheet. I tried to use more specific tags and add more comments in. 
+
 ## What I Used to Make the Project
 - GitHub, Visual Studio Code
 - Chocolatey, Node.js (+npm), Vue.js
