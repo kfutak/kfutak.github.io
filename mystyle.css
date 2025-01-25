@@ -1,164 +1,159 @@
 body {
+    /* The main website color */
     background-color: #7ebc89;
-  } 
+}
 
-.name a:link, .name a:visited, .name a:active {
+header {
+    /* Dimensions of the fish image */
+    width: 900px;
+    height: 200px;
+    /* Centers the image on the screen */
+    margin: auto;
+    /* Allows orange navigation box to rest inside fish image */
+    position: relative;
+    /* Centers header text */
+    text-align: center;
+}
+
+header img {
+    /* Makes the fish image as wide as the header (900px wide, 300px high) */
+    width: 100%;
+    height: 100%;
+    /* Curved edges */
+    border-radius: 25px;
+    /* The image keeps its aspect ratio and fills the given dimension. The image is clipped to fit */
+    object-fit: cover; 
+}
+
+.nav-box {
+    /* Box dimensions (height is automatically determined by the box contents) */
+    width: 500px;
+    /* Positions the orange navigation box relative to (inside) the fish image */
+    position: absolute;
+    /* Adds extra space between inner components and the outside of the box */
+    padding: 25px;
+    /* Curved edges */
+    border-radius: 10px;
+    /* Horizontally and vertically center the navigation box in the fish image */
+    transform: translate(-50%, -50%); 
+    top: 50%;
+    left: 50%;
+    /* Box color */
+    background-color: #fe5d26;
+}
+
+h1 a:link, h1 a:visited, h1 a:active, h1 a:hover {
+    /* Text settings for my name */
     font-family: "Lucida Console", monospace;
     font-weight: bold;
     color: black;
     text-decoration: none;
 }
 
-nav {
-  font-family: "Georgia", serif;
+nav a:link, nav a:visited, nav a:active nav a:hover {
+    /* Text settings for the navigation */
+    font-family: "Georgia", serif;
+    color: black;
+    text-decoration: none;
 }
 
-.koi-container {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 800px;
-    height: 200px;
-    overflow: hidden;
-}
-
-.headerbox {
-    position: absolute;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #fe5d26;
-    width: 350px;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-}
-
-.koi-img {
+.topic-box {
+    /* Box dimensions (height is automatically determined by the box contents) */
+    width: 900px;
+    /* Center */
+    margin: auto;
+    /* Curved edges */
     border-radius: 25px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-.interest-img {
-  border-radius: 50%;
-  width: 15%;
-  height: 15%;
-  object-fit: cover;
-  float: left;
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
-.main {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
+    /* Box color */
     background-color: #C1DBB3;
 }
 
-.main-header {
-    width: 700px; 
+h2 {
+    /* Header dimensions (height is automatically determined by the box contents) */
+    width: 800px; 
+    /* Center horizontally */
     margin-left: auto;
     margin-right: auto;
+    /* Top padding */
     padding-top: 25px;
-    padding-bottom: 0px;
+    /* Header 2 Font */
     font-family: "Georgia", serif;
 }
 
 .main-text {
-    width: 700px; 
+    /* Text dimensions (height is automatically determined by text) */
+    width: 800px; 
+    /* Center horizontally */
     margin-left: auto;
     margin-right: auto;
+    /* Bottom padding */
     padding-bottom: 25px;
+    /* Main text font */
     font-family: "Georgia", serif;
 }
 
-.main-text-bold {
-    width: 700px; 
+/* Surrounds content for each interest: running, reading, and math */
+.interest-box {
+    /* Box dimensions (height is automatically determined by the box contents) */
+    width: 900px;
+    /* Center horizontally, add bottom margin */
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px;
+}
+
+/* Includes track, books, and math images */
+.interest-img {
+    /* Sets size relative to interest-box size */
+    width: 15%;
+    height: 15%;
+    /* Makes images circular */
+    border-radius: 50%;
+    /* The image keeps its aspect ratio and fills the given dimension. The image is clipped to fit */
+    object-fit: cover;
+    /* Images move to the left of the interest-box  */
+    float: left;
+    /* Left and right margins */
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+h3 {
+    /* Text dimensions (height is automatically determined by text) */
+    width: 800px; 
+    /* Center horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    /* Font specifications (bold) */
     font-family: "Georgia", serif;
     font-weight: bold;
 }
 
-.main-text-center {
-  width: 700px; 
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 25px;
-  font-family: "Georgia", serif;
-  text-align: center;
-}
-
-.bottom {
-    width: 800px;
+footer {
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
     margin-bottom: 25px;
-    border-radius: 25px;
-    background-color: #7ebc89; 
 }
 
-.bottom-text {
-    width: 700px; 
+/* .bottom {
+    width: 800px;
+
+    margin-top: 25px;
+    
+    border-radius: 25px;
+    background-color: #7ebc89; 
+} */
+
+.footer-text {
+    width: 800px; 
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
     text-align: center;
 }
 
-a:link, a:visited, a:active {
-  color: darkgreen;
-}
-
-.gallery {
-  display: inline-block;
-  border: 2.5px solid #7ebc89;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 25px;
-  width: 200px;
-}
-
-.gallery .description {
-  padding: 10px;
-  text-align: center;
-  font-family: "Georgia", serif;
-}
-
-.gallery:hover {
-  border: 2.5px solid darkgreen;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-.gallery-bottom {
-  display: inline-block;
-  border: 2.5px solid #7ebc89;
-  margin-left: 5px;
-  margin-right: 5px;
-  width: 200px;
-}
-
-.gallery-bottom .description {
-  padding: 10px;
-  text-align: center;
-  font-family: "Georgia", serif;
-}
-
-.gallery-bottom:hover {
-  border: 2.5px solid darkgreen;
-}
-
-.gallery-bottom img {
-  width: 100%;
-  height: auto;
-}
-
+.footer-text a:link, .footer-text a:visited, .footer-text a:active, .footer-text a:hover {
+    color: darkgreen;
+  }
