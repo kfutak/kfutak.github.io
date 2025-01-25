@@ -1,65 +1,78 @@
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <title>kfutak About Me</title>
-    <link rel="stylesheet" href="mystyle.css">
-    <script src="https://kit.fontawesome.com/48d5663882.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <section class="middle">
-      <section class="koi-container">
-        <img src="/media/koi.jpg" alt="Koi Fish" class="koi-img">
-        <subsection class="headerbox">
-          <h1 class="name"><a href="/index.html">Kayla Futakami</a></h1>
-            <nav>
-              <a href="/resume.html">Resume</a> |
-              <a href="/goals.html">Goals</a> |
-              <a href="/projects.html">Projects</a> |
-              <a href="/gallery.html">Gallery</a>
-            </nav>
-        </subsection>
-      </section>
-    </section>
-    <section class="main">
-      <subsection>
-        <h2 class="main-header">Who am I?</h2>
-        <div class="main-text">
-        <p>I graduated summa cum laude from the University of Nebraska Omaha in December 2024 with a BS in Computer Science and Mathematics minor. I have ~2 years of experience working as a math tutor at Mathnasium and UNO. I am currently seeking entry-level software engineering positions in the Denver area.</p>
-      </div>
-      </subsection>
-    </section>
-    <section class="main">
-      <subsection>
-        <h2 class="main-header">Top 3 Interests</h2>
-        <img src="/media/track.jpg" alt="Running Track" class="interest-img">
-        <div class="main-text-bold">
-        <p>Running</p>
-      </div>
-      <div class="main-text">
-        <p>I enjoy running races of all distances--1 mile to ultra. In 2025 I aim to run a sub 6-minute mile, sub 25-minute 5k, and sub 55-minute 10k. I also want to progress to the 50-mile or 100k distances.</p>
-      </div>
+    <head>
+        <!-- About Me Page -->
+        <title>kfutak About Me</title>
+        <!-- Link to CSS -->
+        <link rel="stylesheet" href="mystyle.css">
+        <!-- For Favicon -->
+        <link rel="icon" type="image/x-icon" href="./media/favicon.ico">
+        <!-- For Logo Icons -->
+        <script src="https://kit.fontawesome.com/48d5663882.js" crossorigin="anonymous"></script>
+    </head>
 
-        <img src="/media/books.jpg" alt="Books in a Shelf" class="interest-img">
-        <div class="main-text-bold"><p >Reading</p></div>
-        <div class="main-text">
-        <p>I enjoy reading books of many genres, including classics, dystopian fiction, and nonfiction. In 2025 I plan to read 36 books. My favorite books I read last year were <i>Dracula</i> by Bram Stoker and <i>Jurassic Park</i> by Michael Crichton.</p>
-    </div>
-        <img src="/media/math.jpg" alt="Math Zoomed In" class="interest-img">
-        <div class="main-text-bold"><p>Math</p></div>
-        <div class="main-text">
-        <p>I enjoy learning and practicing all levels of math. In 2025 I want to hone my basic math skills in subjects I have already studied, such as calculus and linear algebra. The goal is to acquire a strong understanding of the principles undergirding computations such that I can clearly teach any familiar subject on the fly.</p>
-      </div>
-      </subsection>
-    </section>
-    <footer class="bottom">
-      <section class="bottom-text">
-        <a href="mailto:kaylafutakami@gmail.com" target="_blank"><i class="fa-brands fa-google fa-bounce fa-2xl"></i></a>
-        <a href="https://www.linkedin.com/in/kayla-futakami-418b7b2b0/" target="_blank"><i class="fa-brands fa-linkedin fa-bounce fa-2xl"></i></a>
-        <a href="https://github.com/kfutak" target="_blank"><i class="fa-brands fa-github fa-bounce fa-2xl"></i></a>
-        <p>kaylafutakami@gmail.com | 720-322-5076 | Northglenn, CO 80234</p>
-      </section>
-    </footer>
-  </section>
-  </body>
+    <body>
+        <!-- Header with Fish, Name, and Navigation -->
+        <header>
+            <img src="./media/koi.jpg" alt="Koi Fish">
+            <div class="nav-box">
+                <h1><a href="./index.html">Kayla Futakami</a></h1>
+                <nav>
+                    <a href="./goals.html">Goals</a> |
+                    <a href="./resume.html">Resume</a> |
+                    <a href="./projects.html">Projects</a> |
+                    <a href="./gallery.html">Gallery</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- About Me and Interests -->
+        <main>
+            <!-- About Me -->
+            <section class="topic-box">
+                <h2>Who am I?</h2>
+                <div class="main-text">
+                    <p>I graduated summa cum laude from the University of Nebraska Omaha in December 2024 with a BS in Computer Science and Mathematics minor. I have ~2 years of experience working as a math tutor at Mathnasium and UNO. I am currently seeking entry-level software engineering positions in the Denver area.</p>
+                </div>
+            </section>
+            <!-- Interests -->
+            <section class="topic-box">
+                <h2>Top 3 Interests</h2>
+                <!-- Running -->
+                <div class="interest-box">
+                    <img src="./media/track.jpg" alt="Running Track" class="interest-img">
+                    <h3>Running</h3>
+                    <div class="main-text">
+                        <p>I enjoy running races of all distances--1 mile to ultra. In 2025 I aim to run a sub 6-minute mile, sub 25-minute 5k, and sub 55-minute 10k. I also want to progress to the 50-mile or 100k distances.</p>
+                    </div>
+                </div>
+                <!-- Reading -->
+                <div class="interest-box">
+                    <img src="./media/books.jpg" alt="Books in a Shelf" class="interest-img">
+                    <h3>Reading</h3>
+                    <div class="main-text">
+                        <p>I enjoy reading books of many genres, including classics, dystopian fiction, and nonfiction. In 2025 I plan to read 36 books. My favorite books I read last year were <i>Dracula</i> by Bram Stoker and <i>Jurassic Park</i> by Michael Crichton.</p>
+                    </div>
+                </div>
+                <!-- Math -->
+                <div class="interest-box">
+                    <img src="./media/math.jpg" alt="Math Zoomed in" class="interest-img">
+                    <h3>Math</h3>
+                    <div class="main-text">
+                        <p>I enjoy learning and practicing all levels of math. In 2025 I want to hone my basic math skills in subjects I have already studied, such as calculus and linear algebra. The goal is to acquire a strong understanding of the principles undergirding computations such that I can clearly teach any familiar subject on the fly.</p>
+                    </div>
+                </div>
+            </section> 
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <section class="footer-text">
+                <a href="mailto:kaylafutakami@gmail.com" target="_blank"><i class="fa-brands fa-google fa-bounce fa-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/kayla-futakami-418b7b2b0/" target="_blank"><i class="fa-brands fa-linkedin fa-bounce fa-2xl"></i></a>
+                <a href="https://github.com/kfutak" target="_blank"><i class="fa-brands fa-github fa-bounce fa-2xl"></i></a>
+                <address>kaylafutakami@gmail.com | 720-322-5076 | Northglenn, CO 80234</address>
+            </section>
+        </footer>
+    </body>
 </html>
