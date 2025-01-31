@@ -92,6 +92,20 @@ h2 {
     font-family: "Georgia", serif;
 }
 
+.main-text-center {
+    /* Text dimensions (height is automatically determined by text) */
+    width: 800px; 
+    /* Center horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    /* Bottom padding */
+    padding-bottom: 25px;
+    /* Main text font */
+    font-family: "Georgia", serif;
+    /* Center text */
+    text-align: center;
+}
+
 /* Surrounds content for each interest: running, reading, and math */
 .interest-box {
     /* Box dimensions (height is automatically determined by the box contents) */
@@ -160,5 +174,7 @@ footer {
 }
 
 address {
+    /* Vertical spacing between contact info */
     margin-top: 15px;
 }
+
