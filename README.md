@@ -63,6 +63,8 @@ Tomorrow I plan to integrate my old files into the Vue project.
 
 **01/24/2025** Today I mainly worked on fixing up index.html and my stylesheet. I tried to use more specific tags and add more comments in. 
 
+**01/30/2025** I worked on reformatting the HTML for the Resume and Gallery pages. I still need to figure out the padding/margin issues.
+
 ## What I Used to Make the Project
 - GitHub, Visual Studio Code
 - Chocolatey, Node.js (+npm), Vue.js
@@ -83,5 +85,5 @@ Tomorrow I plan to integrate my old files into the Vue project.
 
 
 ## Bugs
-- The margins/padding on the gallery page
-- Fix paragraphs (make make-text a div class?)
+- The margins/padding on the gallery and resume pages (particularly the bottom)
+- ~~Fix paragraphs~~
