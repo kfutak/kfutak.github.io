@@ -1,3 +1,5 @@
+/* General use */
+
 body {
     /* The main website color */
     background-color: #7ebc89;
@@ -92,46 +94,6 @@ h2 {
     font-family: "Georgia", serif;
 }
 
-.main-text-center {
-    /* Text dimensions (height is automatically determined by text) */
-    width: 800px; 
-    /* Center horizontally */
-    margin-left: auto;
-    margin-right: auto;
-    /* Bottom padding */
-    padding-bottom: 25px;
-    /* Main text font */
-    font-family: "Georgia", serif;
-    /* Center text */
-    text-align: center;
-}
-
-/* Surrounds content for each interest: running, reading, and math */
-.interest-box {
-    /* Box dimensions (height is automatically determined by the box contents) */
-    width: 900px;
-    /* Center horizontally, add bottom margin */
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-}
-
-/* Includes track, books, and math images */
-.interest-img {
-    /* Sets size relative to interest-box size */
-    width: 15%;
-    height: 15%;
-    /* Makes images circular */
-    border-radius: 50%;
-    /* The image keeps its aspect ratio and fills the given dimension. The image is clipped to fit */
-    object-fit: cover;
-    /* Images move to the left of the interest-box  */
-    float: left;
-    /* Left and right margins */
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-
 h3 {
     /* Text dimensions (height is automatically determined by text) */
     width: 800px; 
@@ -178,3 +140,93 @@ address {
     margin-top: 15px;
 }
 
+/* About Me */
+
+/* Surrounds content for each interest: running, reading, and math */
+.interest-box {
+    /* Box dimensions (height is automatically determined by the box contents) */
+    width: 900px;
+    /* Center horizontally, add bottom margin */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+/* Includes track, books, and math images */
+.interest-img {
+    /* Sets size relative to interest-box size */
+    width: 15%;
+    height: 15%;
+    /* Makes images circular */
+    border-radius: 50%;
+    /* The image keeps its aspect ratio and fills the given dimension. The image is clipped to fit */
+    object-fit: cover;
+    /* Images move to the left of the interest-box  */
+    float: left;
+    /* Left and right margins */
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+/* Resume */
+
+.resume-box {
+    /* Text dimensions (height is automatically determined by text) */
+    width: 900px; 
+    /* Centers horizontally with bottom margin */
+    margin-left: auto;
+    margin-right: auto;
+    /* Bottom padding */
+    padding-bottom: 25px; 
+    /* Centers resume inside box */
+    display: flex;
+    justify-content: center; 
+}
+
+/* Gallery */
+
+/* Contains all gallery content */
+.gallery-box {
+    /* Text dimensions (height is automatically determined by text) */
+    width: 900px; 
+    /* Centers horizontally with bottom margin */
+    margin-left: auto;
+    margin-right: auto;
+    /* Bottom padding */
+    padding-bottom: 25px; 
+    /* Centers resume inside box */
+    text-align: center;
+}
+
+/* Contains all gallery content for a single picture and description */
+.gallery {
+    /* Displays gallery items side by side */
+    display: inline-block;
+    /* Original border */
+    border: 2.5px solid #7ebc89;
+    /* Space between photos */
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    /* Photo and description box width (calculated to match other pages*/
+    width: 252px;
+}
+  
+.gallery .description {
+    /* Padding between border and text */
+    padding: 10px;
+    /* Description text format */
+    text-align: center;
+    font-family: "Georgia", serif;
+}
+  
+.gallery:hover {
+    /* Changes gallery border when you hover over an image */
+    border: 2.5px solid darkgreen;
+}
+  
+.gallery img {
+    /* Dimensions of gallery image (width according to .gallery, making it 200px) */
+    width: 100%;
+    height: auto;
+}
