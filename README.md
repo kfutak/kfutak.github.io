@@ -65,15 +65,17 @@ Tomorrow I plan to integrate my old files into the Vue project.
 
 **01/30/2025** I worked on reformatting the HTML for the Resume and Gallery pages. I still need to figure out the padding/margin issues.
 
+**02/01/2025** I worked on using JSON to store the gallery image data. I used HTML to render each image on the gallery page. I need to figure out how to do this with Vue.
+
 ## What I Used to Make the Project
 - GitHub, Visual Studio Code
 - Chocolatey, Node.js (+npm), Vue.js
-- HTML, CSS, JavaScript
+- HTML, CSS, JavaScript, JSON
 
 ## To-do List
 - Integrate existing code with Vue.js
 - Add more comments
-- CSS/HTML course --> review all code (i.e., make links relative with ./, use more specific tags such as main, et cetera)
+- CSS/HTML course --> review all code 
 - Fix bugs
 - Goals page
 - Projects page (requires adding old projects to GitHub)
@@ -85,5 +87,6 @@ Tomorrow I plan to integrate my old files into the Vue project.
 
 
 ## Bugs
-- The margins/padding on the gallery and resume pages (particularly the bottom)
+- ~~The margins/padding on the gallery and resume pages (particularly the bottom)~~
 - ~~Fix paragraphs~~
+- Get gallery info from JSON instead of const, integrate into Vue
