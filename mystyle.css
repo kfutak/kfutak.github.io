@@ -149,7 +149,7 @@ address {
     /* Center horizontally, add bottom margin */
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 /* Includes track, books, and math images */
@@ -177,7 +177,7 @@ address {
     margin-left: auto;
     margin-right: auto;
     /* Bottom padding */
-    padding-bottom: 25px; 
+    padding-bottom: 50px; 
     /* Centers resume inside box */
     display: flex;
     justify-content: center; 
