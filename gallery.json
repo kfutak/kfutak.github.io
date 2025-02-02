@@ -1,0 +1,38 @@
+[
+    {
+        "path": "./media/gallery/bridge11282024.jpg",
+        "alt": "Pedestrian bridge",
+        "caption": "Bob Kerrey Pedestrian Bridge",
+        "date": "11/28/2024"
+    },
+    {
+        "path": "./media/gallery/flowers09142024.jpg",
+        "alt": "Flowers",
+        "caption": "Morning Glory Flowers",
+        "date": "09/14/2024"
+    },
+    {
+        "path": "./media/gallery/mtevans108102024.jpg",
+        "alt": "Mountains",
+        "caption": "Mount Blue Sky (overlooking Summit Lake)",
+        "date": "08/10/2024"
+    },
+    {
+        "path": "./media/gallery/goats108102024.jpg",
+        "alt": "Mountain goat",
+        "caption": "Mountain Goat at Mount Blue Sky",
+        "date": "08/10/2024"
+    },
+    {
+        "path": "./media/gallery/goats208102024.jpg",
+        "alt": "Mountain goats",
+        "caption": "Mountain Goats at Mount Blue Sky",
+        "date": "08/10/2024"
+    },
+    {
+        "path": "./media/gallery/goats308102024.jpg",
+        "alt": "Mountain goats",
+        "caption": "Mountain Goats at Mount Blue Sky",
+        "date": "08/10/2024"
+    }
+]
